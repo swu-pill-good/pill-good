@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="144dp"
-            android:text="Button"
+            android:text="TODAY'S PILL"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,10 +25,12 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:layout_marginBottom="168dp"
+            android:text="SEARCH PILL"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="391dp" />
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/button3"
@@ -36,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
             android:layout_marginBottom="120dp"
-            android:text="Button"
+            android:text="RECORDS"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
