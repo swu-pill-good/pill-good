@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="마이페이지"
+    android:textSize="24sp"
+    android:padding="16dp" />
+
+<Button
+    android:id="@+id/accountSetting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="계정 설정"
+    android:padding="16dp" />
+
+<Button
+    android:id="@+id/myHistory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="나의 처방 이력"
+    android:padding="16dp" />
+
+<!-- 다른 내용 뭐 넣지.... -->
+
+</LinearLayout>
