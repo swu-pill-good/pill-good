@@ -12,6 +12,6 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="44dp"
         android:importantForAccessibility="no"
-        app:srcCompat="@android:drawable/ic_menu_search" />
+        android:src="@android:drawable/ic_menu_search" />
 
 </LinearLayout>
