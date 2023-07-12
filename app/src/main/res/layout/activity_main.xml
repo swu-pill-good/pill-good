@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
 
@@ -70,7 +71,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="458dp"
         android:layout_toStartOf="@+id/main_catbot_button"
-        app:srcCompat="@drawable/__2023_07_11_004611" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/__2023_07_11_004611"  ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -83,7 +85,8 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="457dp"
-        app:srcCompat="@drawable/bot_jpg" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/bot_jpg"  ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -94,7 +97,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_home_24" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/baseline_home_24"  ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -105,7 +109,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginBottom="15dp"
         android:layout_toEndOf="@+id/main_home_button"
-        app:srcCompat="@drawable/baseline_calendar_month_24" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/baseline_calendar_month_24" ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -118,7 +123,8 @@
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_camera_24" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/baseline_camera_24" ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -129,7 +135,8 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="15dp"
         android:layout_toStartOf="@+id/main_my_button"
-        app:srcCompat="@drawable/baseline_menu_24" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/baseline_menu_24" ></ImageView>
 
     <ImageView
         android:clickable="true"
@@ -140,7 +147,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_person_24" />
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/baseline_person_24"  ></ImageView>
 
 
 </RelativeLayout>
