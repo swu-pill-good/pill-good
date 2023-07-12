@@ -15,18 +15,11 @@
         <activity
             android:name=".QR"
             android:exported="false" />
-        <activity
-            android:name=".ui.theme.QR"
-            android:exported="false" />
+
         <activity
             android:name=".Ex_MainActivity"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".ui.theme.EX_MainActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MyPage"
             android:exported="false" />
