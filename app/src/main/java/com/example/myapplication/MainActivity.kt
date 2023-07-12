@@ -27,15 +27,15 @@ class MainActivity : ComponentActivity() {
         main_list_button=findViewById(R.id.main_my_button)
 
         main_QR_button.setOnClickListener {
-            var intent= Intent(this,QR::class.java)
+            val intent= Intent(this,QR::class.java)
             startActivity(intent)
         }
         main_my_button.setOnClickListener {
-            var intent= Intent(this,settings::class.java)
+            val intent= Intent(this,settings::class.java)
             startActivity(intent)
         }
         main_list_button.setOnClickListener {
-            var intent= Intent(this,MedMain::class.java)
+            val intent= Intent(this,MedMain::class.java)
             startActivity(intent)
         }
 
