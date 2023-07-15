@@ -71,7 +71,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_person_24"
+        android:src="@drawable/baseline_person_24"
         android:backgroundTint="@color/white"/>
 
     <ImageButton
@@ -82,7 +82,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="15dp"
         android:layout_toStartOf="@+id/main_my_button"
-        app:srcCompat="@drawable/baseline_menu_24"
+        android:src="@drawable/baseline_menu_24"
         android:backgroundTint="@color/white"/>
 
     <ImageButton
@@ -95,7 +95,7 @@
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_camera_24" />
+        android:src="@drawable/baseline_camera_24" />
 
     <ImageButton
         android:id="@+id/main_home_button"
@@ -105,7 +105,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="15dp"
-        app:srcCompat="@drawable/baseline_home_24" />
+        android:src="@drawable/baseline_home_24" />
 
     <ImageButton
         android:id="@+id/main_calender_button"
@@ -115,7 +115,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginBottom="15dp"
         android:layout_toEndOf="@+id/main_home_button"
-        app:srcCompat="@drawable/baseline_calendar_month_24" />
+        android:src="@drawable/baseline_calendar_month_24" />
 
     <ImageButton
         android:id="@+id/main_catbot_button"
@@ -127,7 +127,7 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="480dp"
-        app:srcCompat="@drawable/bot" />
+        android:src="@drawable/bot" />
 
     <ImageButton
         android:id="@+id/main_QR_button"
@@ -142,7 +142,7 @@
         android:layout_marginBottom="480dp"
         android:layout_toStartOf="@+id/main_catbot_button"
 
-        app:srcCompat="@drawable/qr_button" />
+        android:src="@drawable/qr_button" />
 
 
 </RelativeLayout>
