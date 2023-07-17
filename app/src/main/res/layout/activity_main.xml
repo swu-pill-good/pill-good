@@ -123,7 +123,7 @@
         tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
-        android:id="@+id/main_catbot_button"
+        android:id="@+id/main_chatbot_button"
         android:layout_width="115dp"
         android:layout_height="83dp"
         android:layout_alignParentTop="true"
@@ -132,8 +132,9 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="480dp"
+        android:onClick="chat_button"
         android:src="@drawable/bot"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/main_QR_button"
@@ -146,7 +147,7 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="57dp"
         android:layout_marginBottom="480dp"
-        android:layout_toStartOf="@+id/main_catbot_button"
+        android:layout_toStartOf="@+id/main_chatbot_button"
         tools:ignore="SpeakableTextPresentCheck"
         android:src="@drawable/qr_button" />
 

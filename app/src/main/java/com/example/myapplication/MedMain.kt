@@ -14,6 +14,7 @@ class MedMain : AppCompatActivity() {
         setContentView(R.layout.activity_med_main)
 
         rec_button=findViewById<Button>(R.id.rec)
+
         rec_button.setOnClickListener {
             var intent = Intent(this, MedRec::class.java)
             startActivity(intent)
